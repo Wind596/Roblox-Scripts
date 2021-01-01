@@ -192,7 +192,7 @@ option4.MouseButton1Click:Connect(function()
 	if target ~= nil then
 		stat.Text = "Deleting : " .. target.Name
 		target.CanCollide = false
-		target.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight, 999999)
+		target.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight + 5, 999999)
 		wait(1)
 		stat.Text = "Deleted : " .. target.Name 
 	else

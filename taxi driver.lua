@@ -1,3 +1,4 @@
+--while true do --uncomment while true do to make it loop
 local g,b = pcall(function()
 local p = game:GetService("Players").LocalPlayer
 function findTarget()
@@ -40,3 +41,4 @@ else
 end
 end)
 if not g then print(b) end
+--end --uncomment this along with the top  to make it loop
